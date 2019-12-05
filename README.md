@@ -11,18 +11,18 @@ Una simple sala de chat hecha en C, utilizando la tecnologia de Sockets e Hilos.
 # Modo de uso
 - Compilar el servidor:
     ```sh
-    $ gcc -o output/server -lm server.c -lpthread
+    $ gcc -o server -lm server.c -lpthread
     ```
 - Compilar el cliente:
     ```sh
-    $ gcc -o output/client -lm client.c -lpthread
+    $ gcc -o client -lm client.c -lpthread
     ```
 - Iniciar el servidor en el puerto que desee conectarse:
     ```sh
-    $ ./output/server <port>
+    $ ./server <port>
     ```
 - Iniciar el cliente o los clientes en el puerto del servidor:
     ```sh
-    $ ./output/client <port>
+    $ ./client <port>
     ```
   
